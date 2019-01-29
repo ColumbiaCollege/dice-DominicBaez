@@ -18,3 +18,11 @@ if (mousePressed && (mouseButton == LEFT)) {
   text(r,width/2,200);
   textSize(100);
 }}
+
+void mousePressed(){
+if (mouseButton == LEFT){
+p = int(random(1,7));
+} else if (mouseButton == RIGHT){
+r = int(random(1,7));
+}
+}
