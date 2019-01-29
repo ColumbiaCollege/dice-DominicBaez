@@ -9,13 +9,12 @@ void setup() {
 }
 void draw() {
 image(img,0,0,width,height);
-if (mousePressed == true)
 if (mousePressed && (mouseButton == LEFT)) {
   fill(0);
-  text(p,mouseX,mouseY);
+  text(p,250,400);
   textSize(100);
 } else if (mousePressed && (mouseButton == RIGHT)) {
   fill(0);
-  text(r,mouseX,mouseY);
+  text(r,width/2,200);
   textSize(100);
 }}
